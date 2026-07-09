@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SINANO</string>
+    <string name="widget_name">慧湖通二维码</string>
+
+    <string name="tab_huihutong">慧湖通</string>
+    <string name="tab_profile">我</string>
+
+    <string name="hint_openid">请输入 openId</string>
+    <string name="save">保存</string>
+    <string name="save_config">保存配置</string>
+    <string name="refresh">手动刷新</string>
+    <string name="refresh_qr">刷新二维码</string>
+    <string name="configure_widget">配置小部件</string>
+    <string name="qr_code">二维码</string>
+
+    <string name="status_qr_updated">二维码已更新</string>
+    <string name="status_refreshing">刷新中...</string>
+    <string name="status_config_saved">配置已保存</string>
+    <string name="tip_qr_refresh">提示：点击二维码可立即刷新</string>
+
+    <string name="about_line1">本应用仅保存 openId 到本地，不会上传任何数据。</string>
+    <string name="about_line2">配置 openId 后返回“慧湖通”页面即可自动刷新二维码。</string>
+    <string name="about_author">作者：Anyee</string>
+    <string name="about_version">版本：1.0</string>
+    <string name="about_email">邮箱：待填写</string>
+    <string name="about_github">GitHub：待填写</string>
+
+    <string name="widget_status_ok">已刷新</string>
+    <string name="widget_status_no_openid">未配置 openId</string>
+    <string name="widget_status_login_failed">登录失败</string>
+    <string name="widget_status_qrcode_empty">二维码为空</string>
+    <string name="widget_status_render_failed">渲染失败</string>
+    <string name="widget_status_network_error">网络错误: %1$s</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_widget"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/widget_qr_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_qr_placeholder"
+        android:contentDescription="闸机二维码" />
+
+    <TextView
+        android:id="@+id/widget_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bg_status_pill"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="4dp"
+        android:text="点击刷新"
+        android:textSize="10sp"
+        android:textColor="@color/text_secondary" />
+
+</FrameLayout>
